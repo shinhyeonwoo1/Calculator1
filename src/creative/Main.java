@@ -6,15 +6,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("=== 간단 계산기 ===");
-        System.out.println("계산을 계속하려면 숫자와 연산자를 입력하세요.");
+        System.out.println("계산기");
+
         System.out.println("종료하려면 'exit'을 입력하세요.");
 
         while (true) {
             System.out.print("\n첫 번째 숫자 입력 (또는 'exit'): ");
             String input = scanner.next();
 
-            // 종료 조건
+
             if (input.equalsIgnoreCase("exit")) {
                 System.out.println("계산기를 종료합니다.");
                 break;
@@ -34,7 +34,7 @@ public class Main {
             System.out.print("두 번째 숫자 입력: ");
             if (!scanner.hasNextDouble()) {
                 System.out.println("잘못된 숫자입니다.");
-                scanner.next(); // 잘못된 입력 무시
+                scanner.next();
                 continue;
             }
             double num2 = scanner.nextDouble();

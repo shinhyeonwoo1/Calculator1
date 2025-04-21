@@ -6,7 +6,7 @@ public class CalculatorApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("속성, 생성자, 기능이 포함된 계산기입니다.");
+        System.out.println("속성, 생성자, 기능이 포함된 계산기");
 
         System.out.print("첫 번째 숫자 입력: ");
         double num1 = scanner.nextDouble();
