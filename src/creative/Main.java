@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("계산기");
 
-        System.out.println("종료하려면 'exit'을 입력하세요.");
+
 
         while (true) {
             System.out.print("\n첫 번째 숫자 입력 (또는 'exit'): ");
@@ -70,7 +70,7 @@ public class Main {
             }
         }
 
-        scanner.close();
+
     }
 }
 
