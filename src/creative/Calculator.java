@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Calculator {
     // 속성
-    private double num1;
-    private double num2;
-    private String operator;
+    public double num1;
+    public double num2;
+    public String operator;
 
     // 생성자
     public Calculator(double num1, double num2, String operator) {
